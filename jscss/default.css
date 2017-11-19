@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: #FFF url(bg_105_wrap3.jpg) no-repeat fixed top center;
+	background: #FFF url(bg_105_wrap3.jpg) no-repeat fixed center center;
 	font-size: 12px;
 	overflow: auto;
 }
