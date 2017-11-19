@@ -28,7 +28,7 @@ body {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-
+#elapseClock2 img{border:6px solid #fff;}
 #words {
 	font-family: "sans-serif";
 	width: 500px;
