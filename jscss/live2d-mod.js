@@ -1,10 +1,12 @@
-const 
-    GAME_W = window.innerWidth,
-    GAME_H = window.innerHeight,
-    GAME_RATIO = GAME_W / GAME_H,
-    GAME_ORIENTATION = 'landscape'
+// const 
+//     GAME_W = window.innerWidth,
+//     GAME_H = window.innerHeight,
+//     GAME_RATIO = GAME_W / GAME_H,
+//     GAME_ORIENTATION = 'landscape'
 
-const renderer = new PIXI.WebGLRenderer(GAME_W, GAME_H, {transparent: true,autoResize: false});
+// const renderer = new PIXI.WebGLRenderer(GAME_W, GAME_H, {transparent: true,autoResize: false});
+
+const renderer = new PIXI.WebGLRenderer(800, 600);
 document.getElementById('live2d').appendChild(renderer.view);
 const stage = new PIXI.Container();
 
