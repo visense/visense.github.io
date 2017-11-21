@@ -6,7 +6,7 @@
 
 // const renderer = new PIXI.WebGLRenderer(GAME_W, GAME_H, {transparent: true,autoResize: false});
 
-const renderer = new PIXI.WebGLRenderer(800, 600);
+const renderer = new PIXI.WebGLRenderer(200, 451);
 document.getElementById('live2d').appendChild(renderer.view);
 const stage = new PIXI.Container();
 
