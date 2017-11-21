@@ -120,10 +120,10 @@ body {
 	color:#666;
 }
 #live2d {
-	position: fixed;
-	right: 0px;
+	position: absolute;
+	left: 256px;
 	z-index: 999;
 	pointer-events: none;
-	bottom: -40px;
+	bottom: -358px;
 	width: 200px;
-	height: 400px;}
+	height: 451px;}
