@@ -119,3 +119,11 @@ body {
 #copyright a{
 	color:#666;
 }
+#live2d {
+	position: fixed;
+	right: 0px;
+	z-index: 999;
+	pointer-events: none;
+	bottom: -40px;
+	width: 200px;
+	height: 400px;}
